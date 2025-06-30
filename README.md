@@ -23,13 +23,13 @@ pip install python-dotenv
 ### 3. รันเซิร์ฟเวอร์
 
 ```bash
-uvicorn main:app --reload
+fastapi dev main.py
 ```
 
 หรือ
 
 ```bash
-fastapi dev main.py
+uvicorn main:app --reload
 ```
 
 ## ⚙️ การตั้งค่า VS Code
@@ -96,6 +96,12 @@ FASTAPI-LAB-TEST/
 ```
 
 รันเซิร์ฟเวอร์ FastAPI
+
+```bash
+fastapi dev main.py
+```
+
+หรือ
 
 ```bash
 uvicorn main:app --reload
