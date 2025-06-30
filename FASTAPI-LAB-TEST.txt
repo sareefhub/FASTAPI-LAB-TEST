@@ -1,0 +1,30 @@
+Step
+
+1. สร้าง venv 
+
+```
+py -m venv venv
+```
+
+2. เปิดใช้งาน venv
+
+```
+.\venv\Scripts\activate
+```
+
+3. ติดตั้ง FastAPI เฉพาะใน venv นี้
+
+```
+pip install "fastapi[standard]"
+pip install pydantic
+pip install sqlalchemy
+
+
+```
+
+4. รันเซิร์ฟเวอร์ FastAPI ในโหมดพัฒนา (development)
+
+```
+fastapi dev main.py
+```
+
