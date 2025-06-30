@@ -25,6 +25,12 @@ pip install sqlalchemy
 uvicorn main:app --reload
 ```
 
+หรือ
+
+```bash
+fastapi dev main.py
+```
+
 ## ⚙️ การตั้งค่า VS Code
 
 1.  **เปิด Command Palette:** `Ctrl+Shift+P`
