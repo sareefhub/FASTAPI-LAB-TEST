@@ -64,6 +64,8 @@ def get_db():
 # def hello_world():
 #     return { "message": "Hello World" }
 
+# Step 5: CRUD
+
 @app.post("/items", response_model=ItemResponse)
 def create_item(item: ItemCreated, db: Session = Depends(get_db)):
     db_item = Item(**item.model_dump())
