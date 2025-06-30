@@ -17,6 +17,7 @@ py -m venv venv
 pip install "fastapi[standard]"
 pip install pydantic
 pip install sqlalchemy
+pip install python-dotenv
 ```
 
 ### 3. รันเซิร์ฟเวอร์
